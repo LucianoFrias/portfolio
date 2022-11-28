@@ -1,0 +1,69 @@
+.contactMeContainers
+{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+
+.contactMeInputsContainer form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    background-color: var(--transparentblack);
+}
+
+.contactMeInputsContainer label
+{
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contactMeInputsContainer input,
+.contactMeInputsContainer textarea
+{
+    margin-bottom: 20px;
+    background-color: var(--transparentdark);
+    border: 1px solid var(--transparentdark);
+    padding: 10px;
+    color: var(--white);
+    border-radius: 10px;
+    transition: 0.3s all;
+    font-family: sans-serif;
+}
+
+.contactMeInputsContainer textarea
+{
+    resize: none;
+    font-family: sans-serif;
+}
+
+.contactMeInputsContainer input:focus,
+.contactMeInputsContainer textarea:focus
+{
+    border: 1px solid var(--lightblue);
+    outline: var(--lightblue);
+}
+
+.contactMeInputsContainer button 
+{
+    padding: 10px;
+    cursor: pointer;
+    background-color: var(--lightblue);
+    color: #000;
+    transition: 0.5s all;
+    border: 1px solid var(--lightblue)
+}
+
+.contactMeInputsContainer button:hover
+{
+    background-color: var(--pink);
+    border: 1px solid var(--pink)
+}

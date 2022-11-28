@@ -1,0 +1,100 @@
+.skillsPage
+{
+
+}
+
+
+.skillsPage .skillsContainers
+{
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer,
+.skillsPage .skillsContainers .pcRepairContainer,
+.skillsPage .skillsContainers .extraSkillsContainer
+{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 70px 20px;
+    background-color: var(--transparentdark);
+    box-shadow: 2px 2px 7px 3px var(--transparentblack);
+    transition: all 0.5s;
+
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer:hover,
+.skillsPage .skillsContainers .pcRepairContainer:hover,
+.skillsPage .skillsContainers .extraSkillsContainer:hover
+{
+    background-color: var(--transparentblack);
+}
+
+.skillsPage .skillsContainers .pcRepairContainer
+{
+    flex-direction: row-reverse;
+}
+
+.infoContainer
+{   
+    max-width: 40%;
+}   
+
+.skillsPage .skillsContainers .toolsUsedContainer li,
+.skillsPage .skillsContainers .pcRepairContainer li,
+.skillsPage .skillsContainers .extraSkillsContainer li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer h1,
+.skillsPage .skillsContainers .pcRepairContainer h1,
+.skillsPage .skillsContainers .extraSkillsContainer h1
+{
+    text-align: center;
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer img,
+.skillsPage .skillsContainers .pcRepairContainer img,
+.skillsPage .skillsContainers .extraSkillsContainer img
+{
+    width: 250px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 5px var(--black);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:700px)
+{
+    .skillsPage .skillsContainers .toolsUsedContainer,
+    .skillsPage .skillsContainers .pcRepairContainer,
+    .skillsPage .skillsContainers .extraSkillsContainer
+    {
+        flex-direction: column;
+    }
+
+
+    .skillsPage .skillsContainers .toolsUsedContainer img,
+    .skillsPage .skillsContainers .pcRepairContainer img,
+    .skillsPage .skillsContainers .extraSkillsContainer img
+{
+    width: 200px;
+    box-shadow: 0px 0px 10px 5px var(--black);
+    margin: auto;
+}
+
+.infoContainer
+{   
+    max-width:fit-content;
+    margin: auto;
+}   
+
+
+}

@@ -1,0 +1,82 @@
+
+:root
+{
+  /* Globally declared variables */
+  --lightdark: #111;
+  --lightestdark: #555;
+  --lightblue: #55a4ff;
+  --pink: #ba00c0;
+  --white: #fff;
+  --black: #000;
+  --transparentdark: #111111b2;
+  --transparentblack: #000000a4;
+}
+
+.centeredPage
+{
+   color: white;
+   width: 100%;
+   height: 100%;
+   padding-left: 70px;
+   text-align: center;
+   background-image: url('./img/background-image.jpg');
+   background-color: #11111167;
+   background-blend-mode: multiply;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.spanBlue
+{
+  color: var(--lightblue);
+}
+
+.spanPink
+{
+  color: var(--pink);
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+}
+
+::-webkit-scrollbar-track
+{
+  background-color: var(--black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lightestdark);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333;
+}
+
+.title
+{
+    color: var(--pink);
+    font-weight: 800;
+}
+
+/*  KEYFRAMES */
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@keyframes colorChangeHomePage {
+  0% { color: var(--pink); }
+  50% { color: var(--lightblue); }
+}
+
+

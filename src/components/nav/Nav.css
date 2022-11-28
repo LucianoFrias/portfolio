@@ -1,0 +1,54 @@
+.verticalNav
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    min-width: 70px;
+    max-width: 70px;
+    height: 100vh;
+    color: #fff;
+    background-color: var(--lightdark);
+    color: var(--lightblue);
+    box-shadow: 1px 1px 14px 7px var(--black);
+}
+
+.logo
+{
+    width: 70px;
+    height: 70px;
+}
+
+.verticalNav .elementsContainer
+{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--pink);
+    border-top: 1px solid var(--pink);
+}
+
+.elementsContainer > .navElement
+{
+    color: var(--lightblue);
+    font-size: 2rem;
+    margin: 10px 0px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.elementsContainer > .navElementHighlighted
+{
+    color: var(--pink);
+    font-size: 2rem;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.elementsContainer > .navElement:hover
+{
+    color: var(--pink);
+}
+

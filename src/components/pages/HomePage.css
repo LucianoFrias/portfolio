@@ -1,0 +1,83 @@
+.homePage
+{
+   display: flex;
+   flex-direction: row;
+}
+
+.homeContainers
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    min-height: 100vh;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+.homeContainers .imgContainer
+{
+    width: 50%;
+}
+
+.homeContainers .imgContainer img
+{
+    width: 250px;
+    height: 250px;
+    border: 10px solid var(--lightdark);
+    box-shadow: 2px 2px 10px 6px var(--transparentblack);
+}
+
+.homeContainers .informationContainer
+{
+    width: 50%;
+    text-align: left;
+}
+
+.homeContainers .informationContainer h1
+{
+    font-size: 40px;
+}
+
+.homeContainers .informationContainer p
+{
+    line-height: 30px;
+}
+
+.homeContainers .informationContainer a
+{
+    color: var(--white);
+    font-size: 50px;
+    margin: 0 10px;
+}
+
+.colorChangeSpan
+{
+    color: var(--pink);
+    animation: colorChangeHomePage 10s infinite;
+}
+
+@media (max-width: 500px)
+{
+    .homeContainers
+    {
+        height: auto;
+        flex-direction: column;
+        margin: 0px 10px;
+    }
+
+    .homeContainers .informationContainer,
+    .homeContainers .imgContainer
+    {
+        width: 100%;
+        text-align: center;
+    }  
+    
+    .homeContainers .imgContainer img
+    {
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,23 @@
+
+.projectsContainer
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    margin: 0px 60px;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+@media (max-width: 700px)
+{
+
+    .projectsContainer
+    {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
