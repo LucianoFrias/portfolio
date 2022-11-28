@@ -16,7 +16,7 @@ function HomePage() {
         <h1>Hello, I'm <span className='colorChangeSpan '>Luciano</span> from Argentina!</h1>
 
         <h2><span className='spanPink'>Software Developer</span><br></br>
-        <span className='spanBlue'>PC Repairing Technician</span></h2>
+        <span className='spanBlue'>PC Repairing Technician asdlsap´dlsap´dl</span></h2>
 
         <p>Always looking to learn more every day and strive for a better future
           for myself and friends. <br></br>
