@@ -14,16 +14,16 @@ function Nav() {
   return (
     <nav className='verticalNav'>
         <div>
-            <Link to='/' title='Luciano Frias - Software Developer'>
+            <Link to='/portfolio/' title='Luciano Frias - Software Developer'>
             <img src={Logo} className='logo' alt=''></img></Link>
         </div>
 
         <div className='elementsContainer'>
-            <Link className='navElement' to='/' title='Home'><AiFillHome /></Link>
-            <Link className='navElement' to='/skills' title='Skills'><GiSkills /></Link>
-            <Link className='navElement' to='/studies' title='Studies'><AiFillBook /></Link>
-            <Link className='navElement' to='/projects' title='Projects'><FaCode /></Link>
-            <Link className='navElement' to='/contact-me' title='Contact Me'><MdContactPhone /></Link>
+            <Link className='navElement' to='/portfolio/' title='Home'><AiFillHome /></Link>
+            <Link className='navElement' to='/portfolio/skills' title='Skills'><GiSkills /></Link>
+            <Link className='navElement' to='/portfolio/studies' title='Studies'><AiFillBook /></Link>
+            <Link className='navElement' to='/portfolio/projects' title='Projects'><FaCode /></Link>
+            <Link className='navElement' to='/portfolio/contact-me' title='Contact Me'><MdContactPhone /></Link>
         </div>
 
         <div>  
