@@ -39,6 +39,7 @@ function ProjectsPage() {
         tools='JavaScript DOM, PHP, MySQL'
         imageUrl={StudentManagementSystemIMG}
         color='Pink'
+        githubURL="https://github.com/mgsantiago-10g/pp-isft151-2022"
          />
       </div>
 

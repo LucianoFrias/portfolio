@@ -51,6 +51,12 @@
     color: var(--white);
     font-size: 50px;
     margin: 0 10px;
+    transition: 0.2s all;
+}
+
+.homeContainers .informationContainer a:hover
+{
+    color: var(--lightblue);
 }
 
 .colorChangeSpan
@@ -61,6 +67,7 @@
 
 @media (max-width: 500px)
 {
+
     .homeContainers
     {
         height: auto;
@@ -71,7 +78,7 @@
     .homeContainers .informationContainer,
     .homeContainers .imgContainer
     {
-        width: 100%;
+        width: 90%;
         text-align: center;
     }  
     

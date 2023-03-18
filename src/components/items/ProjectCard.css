@@ -14,6 +14,17 @@
 
 }
 
+.projectCard .links
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projectCard a
+{
+    color: var(--pink);
+    font-size: 40px;
+}
 
 .hiddenCardContent
 {

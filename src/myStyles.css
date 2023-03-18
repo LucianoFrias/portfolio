@@ -5,6 +5,7 @@
   --lightdark: #111;
   --lightestdark: #555;
   --lightblue: #55a4ff;
+  --lightgrey: #d3d3d3;
   --pink: #ba00c0;
   --white: #fff;
   --black: #000;
@@ -28,6 +29,17 @@
    background-attachment: fixed;
 }
 
+
+p
+{
+  color: var(--lightgrey);
+}
+
+.spanWhite
+{
+  color: var(--white);
+}
+
 .spanBlue
 {
   color: var(--lightblue);
@@ -36,6 +48,11 @@
 .spanPink
 {
   color: var(--pink);
+}
+
+.spanLightGrey
+{
+  color: var(--lightgrey);
 }
 
 ::-webkit-scrollbar
@@ -60,7 +77,7 @@
 .title
 {
     color: var(--pink);
-    font-weight: 800;
+    font-size: 50px;
 }
 
 /*  KEYFRAMES */

@@ -7,15 +7,18 @@ import ExtraSkills from '../../img/extra-skills-img.png'
 function SkillsPage() {
   return (
     <div className='centeredPage skillsPage'>
+
+      <h1 className='title'>Skills</h1>
+
         <div className='skillsContainers'>
             
           <div className='toolsUsedContainer'>
               <div className='infoContainer'>
                 <h1><span className='spanPink'>Tools used:</span></h1>
                 <ul>
-                  <li><span className='spanBlue'>Web Development: </span> HTML, CSS, JavaScript, ReactJS.</li>
-                  <li><span className='spanBlue'>High-Level Languages: </span> C++, Java, C#.</li>
-                  <li><span className='spanBlue'>DB Languages: </span> MySQL.</li>
+                  <li><span className='spanBlue'>Web Development: </span> HTML, CSS, JavaScript (React).</li>
+                  <li><span className='spanBlue'>High-Level Languages: </span> Java (Spring Boot), C++, C#.</li>
+                  <li><span className='spanBlue'>DB Languages: </span> MySQL, MongoDB.</li>
                 </ul>
               </div>
 
@@ -38,9 +41,9 @@ function SkillsPage() {
 
           </div>
 
-          <div className='extraSkillsContainer'>
+          <div className='generalSkillsContainer'>
             <div className='infoContainer'>
-                <h1><span className='spanPink'>Extra Skills:</span></h1>
+                <h1><span className='spanPink'>General Skills:</span></h1>
                 <ul>
                   <li>A mindset of <span className='spanBlue'>constant learning.</span></li>
                   <li><span className='spanBlue'>Work and influence</span> as a team.</li>

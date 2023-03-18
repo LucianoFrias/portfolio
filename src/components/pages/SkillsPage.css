@@ -13,7 +13,7 @@
 
 .skillsPage .skillsContainers .toolsUsedContainer,
 .skillsPage .skillsContainers .pcRepairContainer,
-.skillsPage .skillsContainers .extraSkillsContainer
+.skillsPage .skillsContainers .generalSkillsContainer
 {
     display: flex;
     text-align: left;
@@ -30,7 +30,7 @@
 
 .skillsPage .skillsContainers .toolsUsedContainer:hover,
 .skillsPage .skillsContainers .pcRepairContainer:hover,
-.skillsPage .skillsContainers .extraSkillsContainer:hover
+.skillsPage .skillsContainers .generalSkillsContainer:hover
 {
     background-color: var(--transparentblack);
 }
@@ -47,7 +47,7 @@
 
 .skillsPage .skillsContainers .toolsUsedContainer li,
 .skillsPage .skillsContainers .pcRepairContainer li,
-.skillsPage .skillsContainers .extraSkillsContainer li
+.skillsPage .skillsContainers .generalSkillsContainer li
 {
     list-style: none;
     margin-bottom: 10px;
@@ -55,14 +55,14 @@
 
 .skillsPage .skillsContainers .toolsUsedContainer h1,
 .skillsPage .skillsContainers .pcRepairContainer h1,
-.skillsPage .skillsContainers .extraSkillsContainer h1
+.skillsPage .skillsContainers .generalSkillsContainer h1
 {
     text-align: center;
 }
 
 .skillsPage .skillsContainers .toolsUsedContainer img,
 .skillsPage .skillsContainers .pcRepairContainer img,
-.skillsPage .skillsContainers .extraSkillsContainer img
+.skillsPage .skillsContainers .generalSkillsContainer img
 {
     width: 250px;
     height: fit-content;
@@ -75,15 +75,16 @@
 {
     .skillsPage .skillsContainers .toolsUsedContainer,
     .skillsPage .skillsContainers .pcRepairContainer,
-    .skillsPage .skillsContainers .extraSkillsContainer
+    .skillsPage .skillsContainers .generalSkillsContainer
     {
         flex-direction: column;
+        padding-bottom: 40px;
     }
 
 
     .skillsPage .skillsContainers .toolsUsedContainer img,
     .skillsPage .skillsContainers .pcRepairContainer img,
-    .skillsPage .skillsContainers .extraSkillsContainer img
+    .skillsPage .skillsContainers .generalSkillsContainer img
 {
     width: 200px;
     box-shadow: 0px 0px 10px 5px var(--black);
@@ -95,6 +96,5 @@
     max-width:fit-content;
     margin: auto;
 }   
-
 
 }

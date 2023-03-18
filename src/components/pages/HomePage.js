@@ -2,7 +2,7 @@ import React from 'react'
 import './HomePage.css'
 import MeIMG from '../../img/me.jpg'
 
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsFillBriefcaseFill } from 'react-icons/bs'
 
 
 function HomePage() {
@@ -20,11 +20,28 @@ function HomePage() {
 
         <p>Always looking to learn more every day and strive for a better future
           for myself and friends. <br></br>
-          To start navigating through the website, <span className='spanBlue'>click the links to the left.</span>
         </p>
 
-        <a href='https://github.com/LucianoFrias' target='_blank' rel='noreferrer'><BsGithub /></a>
-        <a href='https://www.linkedin.com/in/luciano-frias-1439b71b7/' target='_blank' rel='noreferrer'><BsLinkedin /></a>
+        <a 
+        href='https://drive.google.com/file/d/1N78lrzMY_vll7n-KTMJULs361FAbl5Hz/view' 
+        target="_blank" 
+        rel='noreferrer' 
+        title='Download CV'>
+        <BsFillBriefcaseFill /></a>
+
+        <a 
+        href='https://github.com/LucianoFrias' 
+        target='_blank' 
+        rel='noreferrer' 
+        title='Github'>
+        <BsGithub /></a>
+
+        <a 
+        href='https://www.linkedin.com/in/luciano-frias-1439b71b7/' 
+        target='_blank' 
+        rel='noreferrer' 
+        title='LinkedIn'>
+        <BsLinkedin /></a>
 
         </div>
 
