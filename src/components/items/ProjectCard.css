@@ -20,11 +20,20 @@
     justify-content: space-evenly;
 }
 
-.projectCard a
+
+
+.linkEnabled
 {
     color: var(--pink);
     font-size: 40px;
 }
+
+.linkDisabled
+{
+    color: var(--lightestdark);
+    font-size: 40px;
+}
+
 
 .hiddenCardContent
 {

@@ -17,13 +17,17 @@ function ProjectCard({title, description, tools, imageUrl, color, githubURL, web
         <h2><span className={color === 'pink' || color === 'Pink' ? 'spanPink' : 'spanBlue'}>Tools used: </span>{tools}</h2>
 
         <div className='links'>
-        <a href={githubURL} 
+        <a
+        className={githubURL ? "linkEnabled" : "linkDisabled"} 
+        href={githubURL} 
         target='_blank' 
         rel='noreferrer' 
         title='Github Project'>
         <BsGithub /></a>
 
-        <a href={websiteURL} 
+        <a 
+        className={websiteURL ? "linkEnabled" : "linkDisabled"}
+        href={websiteURL} 
         target='_blank' 
         rel='noreferrer' 
         title='Website Link'>

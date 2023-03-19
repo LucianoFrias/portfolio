@@ -1,13 +1,27 @@
 import React from 'react'
 import './ContactMePage.css'
+import emailjs from 'emailjs-com'
+import { useRef } from 'react';
 
 function ContactMePage() {
 
-  function sendEmail(e) {
+  const form = useRef();
+
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("Email sent!")
-  }
+    
+
+    emailjs.sendForm('gmail_portfolio', 'template_dhi2chj', form.current, 'K0NaO_2Q6t544G3vI')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+      alert("Mail enviado!");
+  };
 
   return (
     <div className='centeredPage contactMePage'>
@@ -17,7 +31,7 @@ function ContactMePage() {
         
 
         <div className='contactMeInputsContainer'>
-          <form onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
           <label for='name'>Your name: </label>
           <input type='text' placeholder='Enter your name...' name='name' required  maxlength='16' autoComplete='off'/>
 
@@ -31,9 +45,11 @@ function ContactMePage() {
           <textarea type='text' placeholder='Enter your message...' name='message' required autoComplete='off'></textarea>
 
           <button type='submit'>Send!</button>
+
+          <h1><span className='spanBlue'>Thank you for visiting my personal website! ;)</span></h1>
           </form>
         </div>
-        <h1><span className='spanBlue'>Thank you for visiting my personal website! ;)</span></h1>
+
         </div>
     </div>
     
