@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ad971c4a.css",
-    "main.js": "/portfolio/static/js/main.c3eff38e.js",
+    "main.css": "/portfolio/static/css/main.60c3cca0.css",
+    "main.js": "/portfolio/static/js/main.c6eb74fc.js",
     "static/media/tools-used.jpg": "/portfolio/static/media/tools-used.8dd8ad0ffefcaeb8d4ca.jpg",
     "static/media/pc-repair-img.jpg": "/portfolio/static/media/pc-repair-img.f4b1618e5bbebd93d117.jpg",
     "static/media/background-image.jpg": "/portfolio/static/media/background-image.5259c4ce365384bf095a.jpg",
@@ -12,11 +12,11 @@
     "static/media/logo.png": "/portfolio/static/media/logo.94150972f8856029e7da.png",
     "static/media/notes-app-img.jpeg": "/portfolio/static/media/notes-app-img.42f178b6e46d4c166baf.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.ad971c4a.css.map": "/portfolio/static/css/main.ad971c4a.css.map",
-    "main.c3eff38e.js.map": "/portfolio/static/js/main.c3eff38e.js.map"
+    "main.60c3cca0.css.map": "/portfolio/static/css/main.60c3cca0.css.map",
+    "main.c6eb74fc.js.map": "/portfolio/static/js/main.c6eb74fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad971c4a.css",
-    "static/js/main.c3eff38e.js"
+    "static/css/main.60c3cca0.css",
+    "static/js/main.c6eb74fc.js"
   ]
 }
