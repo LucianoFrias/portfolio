@@ -16,7 +16,7 @@ function ProjectsPage() {
       <div className='projectsContainer'>
         <ProjectCard
         title='Netflix Clone' 
-        description='This is a Netflix clone created with the aid of TMDB, serving as a database for movies. We use Firebase for the Hosting.'
+        description='This is a Netflix clone created with the aid of TMDB, serving as a database for movies. I use Firebase for the Hosting.'
         tools='JavaScript, ReactJS, TMDB.' 
         imageUrl={NetflixIMG}
         githubURL="https://github.com/LucianoFrias/netflix-clone-frontend"

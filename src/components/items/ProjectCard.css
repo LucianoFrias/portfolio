@@ -26,6 +26,12 @@
 {
     color: var(--pink);
     font-size: 40px;
+    transition: 0.2s all;
+}
+
+.linkEnabled:hover
+{
+    color: var(--lightblue);
 }
 
 .linkDisabled
