@@ -22,6 +22,8 @@ function ProjectsPage() {
           githubURL="https://github.com/LucianoFrias/netflix-clone-frontend"
           websiteURL="https://netflix-clone-6be83.web.app" />
 
+          
+
         <ProjectCard
           title='Nix'
           description='Website for adding, deleting and update users in a system using a MySQL Database.'

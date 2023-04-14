@@ -4,12 +4,11 @@
     flex-direction: column;
     width: 75%;
     margin: auto;
-    
+    padding: 40px 0;
+
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
-
-    padding-bottom: 40px;
 }
 
 

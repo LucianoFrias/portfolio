@@ -34,8 +34,8 @@ function StudiesPage() {
           institute='ISFT 151'
           degree='Systems Analyst Technician'
           startingDate='March 2020'
-          endingDate='December 2023'
-          state='In progress...' />
+          endingDate='March 2023'
+          state='Finished.' />
 
 
       </div>

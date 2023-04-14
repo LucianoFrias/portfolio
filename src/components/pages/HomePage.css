@@ -2,16 +2,17 @@
 {
    display: flex;
    flex-direction: row;
+   
 }
 
 .homeContainers
 {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    min-height: 100vh;
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards; 
@@ -24,21 +25,21 @@
 
 .homeContainers .imgContainer img
 {
-    width: 250px;
-    height: 250px;
+    width: 50%;
+    height: 50%;
     border: 10px solid var(--lightdark);
     box-shadow: 2px 2px 10px 6px var(--transparentblack);
 }
 
 .homeContainers .informationContainer
 {
+    font-size: 1.1rem;
     width: 50%;
     text-align: left;
 }
 
 .homeContainers .informationContainer h1
 {
-    font-size: 40px;
 }
 
 .homeContainers .informationContainer p
@@ -49,7 +50,7 @@
 .homeContainers .informationContainer a
 {
     color: var(--white);
-    font-size: 50px;
+    font-size: 3rem;
     margin: 0 10px;
     transition: 0.2s all;
 }

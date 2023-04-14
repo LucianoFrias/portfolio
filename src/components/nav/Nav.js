@@ -1,6 +1,6 @@
 import React from 'react'
 import './Nav.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { AiFillHome } from 'react-icons/ai';
 import { GiSkills } from 'react-icons/gi'
 import { AiFillBook } from 'react-icons/ai'
@@ -19,11 +19,11 @@ function Nav() {
         </div>
 
         <div className='elementsContainer'>
-            <Link className='navElement' to='/' title='Home'><AiFillHome /></Link>
-            <Link className='navElement' to='/skills' title='Skills'><GiSkills /></Link>
-            <Link className='navElement' to='/studies' title='Studies'><AiFillBook /></Link>
-            <Link className='navElement' to='/projects' title='Projects'><FaCode /></Link>
-            <Link className='navElement' to='/contact-me' title='Contact Me'><MdContactPhone /></Link>
+            <NavLink className='navElement' activeClassName="active" to='/' title='Home'><AiFillHome /></NavLink>
+            <NavLink className='navElement' activeClassName="active" to='/skills' title='Skills'><GiSkills /></NavLink>
+            <NavLink className='navElement' activeClassName="active" to='/studies' title='Studies'><AiFillBook /></NavLink>
+            <NavLink className='navElement' activeClassName="active" to='/projects' title='Projects'><FaCode /></NavLink>
+            <NavLink className='navElement' activeClassName="active" to='/contact-me' title='Contact Me'><MdContactPhone /></NavLink>
         </div>
 
         <div>  
