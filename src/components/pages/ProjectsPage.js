@@ -26,12 +26,11 @@ function ProjectsPage() {
 
         <ProjectCard
           title='Nix'
-          description='Website for adding, deleting and update users in a system using a MySQL Database.'
-          tools='Java, Spring, JavaScript, Bootstrap, MySQL'
+          description='A user manager project for adding, deleting and update users in a system using a MySQL Database.'
+          tools='Java, Spring, NodeJS, JavaScript, Bootstrap, MySQL'
           imageUrl={NixLogoIMG}
           color='Pink'
-          githubURL="https://github.com/LucianoFrias/nix-user-manager"
-          websiteURL="https://nix-user-manager-production-8a56.up.railway.app/" />
+          githubURL="https://github.com/LucianoFrias/nix-user-manager-node" />
 
 
         <ProjectCard
