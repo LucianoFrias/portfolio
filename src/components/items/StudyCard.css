@@ -1,0 +1,24 @@
+.studyCard
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+    background-color: var(--transparentblack);
+    border-radius: 10px;
+    margin: 10px;
+
+    
+}
+
+.stateInProgress
+{
+    color: #ca7900;
+}
+
+.stateFinished
+{
+    color: #007e00;
+}

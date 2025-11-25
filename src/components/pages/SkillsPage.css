@@ -1,0 +1,104 @@
+.skillsPage
+{
+
+}
+
+
+.skillsPage .skillsContainers
+{
+    width: 90%;
+    font-size: 1rem;
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    margin: auto;
+    animation: fadeInAnimation ease 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards; 
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer,
+.skillsPage .skillsContainers .pcRepairContainer,
+.skillsPage .skillsContainers .generalSkillsContainer
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    padding: 30px 0;
+    background-color: var(--transparentdark);
+    box-shadow: 2px 2px 7px 3px var(--transparentblack);
+    transition: all 0.5s;
+
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer:hover,
+.skillsPage .skillsContainers .pcRepairContainer:hover,
+.skillsPage .skillsContainers .generalSkillsContainer:hover
+{
+    background-color: var(--transparentblack);
+}
+
+.skillsPage .skillsContainers .pcRepairContainer
+{
+    flex-direction: row-reverse;
+}
+
+.infoContainer
+{   
+    max-width: 40%;
+}   
+
+.skillsPage .skillsContainers .toolsUsedContainer li,
+.skillsPage .skillsContainers .pcRepairContainer li,
+.skillsPage .skillsContainers .generalSkillsContainer li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer h1,
+.skillsPage .skillsContainers .pcRepairContainer h1,
+.skillsPage .skillsContainers .generalSkillsContainer h1
+{
+    text-align: center;
+}
+
+.skillsPage .skillsContainers .toolsUsedContainer img,
+.skillsPage .skillsContainers .pcRepairContainer img,
+.skillsPage .skillsContainers .generalSkillsContainer img
+{
+    width: 250px;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 5px var(--black);
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:700px)
+{
+    .skillsPage .skillsContainers .toolsUsedContainer,
+    .skillsPage .skillsContainers .pcRepairContainer,
+    .skillsPage .skillsContainers .generalSkillsContainer
+    {
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+
+    .skillsPage .skillsContainers .toolsUsedContainer img,
+    .skillsPage .skillsContainers .pcRepairContainer img,
+    .skillsPage .skillsContainers .generalSkillsContainer img
+{
+    width: 200px;
+    box-shadow: 0px 0px 10px 5px var(--black);
+    margin: auto;
+}
+
+.infoContainer
+{   
+    max-width:fit-content;
+    margin: auto;
+}   
+
+}
